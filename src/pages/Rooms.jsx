@@ -206,12 +206,12 @@ const Rooms = () => {
                     </Link>
 
                     {/* Navigation */}
-                    <nav className="hidden md:flex items-center gap-8">
-                        <Link to="/" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Home</Link>
-                        <Link to="/rooms" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Destination</Link>
-                        <Link to="/experience" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Experiences</Link>
-                        <Link to="/about" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">About</Link>
-                    </nav>
+                    // <nav className="hidden md:flex items-center gap-8">
+                    //     <Link to="/" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Home</Link>
+                    //     <Link to="/rooms" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Destination</Link>
+                    //     <Link to="/experience" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Experiences</Link>
+                    //     <Link to="/about" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">About</Link>
+                    // </nav>
 
                     {/* Right side icons and login */}
                     <div className="flex items-center gap-4 md:gap-6">
