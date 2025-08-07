@@ -101,7 +101,7 @@ const Rooms = () => {
 
     const HotelCard = ({ hotel }) => {
         return (
-            <div className="flex flex-col md:flex-row gap-6 md:gap-9 w-full mb-16">
+            <div className="flex flex-col md:flex-row gap-6 md:gap-9 w-full mb-8">
                 {/* Hotel Image */}
                 <div className="relative w-full md:w-auto flex-shrink-0">
                     <img
