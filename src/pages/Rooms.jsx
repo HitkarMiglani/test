@@ -214,7 +214,7 @@ const Rooms = () => {
                     </nav>
 
                     {/* Right side icons and login */}
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-4 md:gap-6">
                         {/* Search Icon */}
                         <svg className="w-4 h-4 text-gray-600" viewBox="0 0 15 15" fill="none">
                             <path d="M10.5 10.5L14 14M12 7C12 9.76142 9.76142 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -226,7 +226,7 @@ const Rooms = () => {
                         </svg>
 
                         {/* Login Button */}
-                        <Link to="/login" className="bg-[#18181B] text-white px-6 py-2 rounded-full text-sm font-medium font-outfit hover:bg-gray-800">
+                        <Link to="/login" className="bg-[#18181B] text-white px-4 md:px-6 py-2 rounded-full text-sm font-medium font-outfit hover:bg-gray-800">
                             Login
                         </Link>
                     </div>
