@@ -234,10 +234,10 @@ const Rooms = () => {
             </header>
 
             {/* Main Content */}
-            <div className="px-28 py-8">
-                <div className="flex gap-16">
+            <div className="px-6 md:px-16 lg:px-28 py-8">
+                <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
                     {/* Left Content - Hotel Listings */}
-                    <div className="flex-1 max-w-[920px]">
+                    <div className="flex-1 max-w-none lg:max-w-[920px]">
                         {/* Header */}
                         <div className="mb-12">
                             <h1 className="text-[40px] font-playfair font-medium text-[#252525] leading-[57px] mb-4">Hotel Rooms</h1>
