@@ -248,12 +248,12 @@ const Rooms = () => {
                         </div>
 
                         {/* Hotels List */}
-                        <div className="space-y-0">
+                        <div>
                             {hotels.map((hotel, index) => (
                                 <div key={hotel.id}>
                                     <HotelCard hotel={hotel} />
                                     {index < hotels.length - 1 && (
-                                        <div className="w-full h-px bg-gray-300 opacity-30 mb-16"></div>
+                                        <div className="w-full h-px bg-gray-300 opacity-30 my-8"></div>
                                     )}
                                 </div>
                             ))}
