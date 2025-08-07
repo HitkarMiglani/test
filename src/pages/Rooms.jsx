@@ -133,7 +133,7 @@ const Rooms = () => {
                         </div>
                         
                         {/* Amenities */}
-                        <div className="flex gap-3 mb-6">
+                        <div className="flex flex-wrap gap-3 mb-6">
                             {hotel.amenities.map((amenity, index) => (
                                 <div key={index} className="flex items-center gap-2 bg-[#F0F0F7] rounded-lg px-4 py-2">
                                     {index === 0 && (
