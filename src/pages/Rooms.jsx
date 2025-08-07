@@ -194,16 +194,16 @@ const Rooms = () => {
     return (
         <div className="min-h-screen bg-[#FDFDFD]">
             {/* Header Navbar */}
-            <header className="bg-white shadow-sm">
+          {/*  <header className="bg-white shadow-sm">
                 <div className="flex items-center justify-between px-6 md:px-16 lg:px-28 py-4">
-                    {/* Logo */}
+            {/* Logo }
                     <Link to="/" className="flex items-center">
                         <img
                             src="https://api.builder.io/api/v1/image/assets/TEMP/56a0172612a8c06ab1fb7bfdecc8d5af8cb769ed"
                             alt="QuickStay"
                             className="h-9"
                         />
-                    </Link>
+                    </Link>*/}
 
                     {/* Navigation */}
                     {/* <nav className="hidden md:flex items-center gap-8">
@@ -231,7 +231,7 @@ const Rooms = () => {
                         </Link>
                     </div>
                 </div>
-            </header>
+            </header>*/}
 
             {/* Main Content */}
             <div className="px-6 md:px-16 lg:px-28 py-8">
