@@ -235,7 +235,7 @@ const Rooms = () => {
 
             {/* Main Content */}
             <div className="px-28 py-8">
-                <div className="flex gap-12">
+                <div className="flex gap-16">
                     {/* Left Content - Hotel Listings */}
                     <div className="flex-1 max-w-[920px]">
                         {/* Header */}
