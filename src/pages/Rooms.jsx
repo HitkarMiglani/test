@@ -233,16 +233,6 @@ const Rooms = () => {
                 </div>
             </header>
 
-            {/* Navigation Breadcrumb */}
-            <div className="pt-8 pb-4 px-28">
-                <div className="flex items-center gap-4 text-sm font-medium font-outfit">
-                    <span className="text-[#776E6E]">Home</span>
-                    <span className="text-[#776E6E]">Destination</span>
-                    <span className="text-[#776E6E]">Experiences</span>
-                    <span className="text-[#776E6E]">About</span>
-                </div>
-            </div>
-
             {/* Main Content */}
             <div className="px-28 py-8">
                 <div className="flex gap-12">
