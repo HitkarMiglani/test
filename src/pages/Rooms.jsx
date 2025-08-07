@@ -194,40 +194,44 @@ const Rooms = () => {
     return (
         <div className="min-h-screen bg-[#FDFDFD]">
             {/* Header Navbar */}
-            {/*
-            <header className="bg-white shadow-sm">
+          {/*  <header className="bg-white shadow-sm">
                 <div className="flex items-center justify-between px-6 md:px-16 lg:px-28 py-4">
+            {/* Logo }
                     <Link to="/" className="flex items-center">
                         <img
                             src="https://api.builder.io/api/v1/image/assets/TEMP/56a0172612a8c06ab1fb7bfdecc8d5af8cb769ed"
                             alt="QuickStay"
                             className="h-9"
                         />
-                    </Link>
+                    </Link>*/}
 
-                    <nav className="hidden md:flex items-center gap-8">
-                        <Link to="/" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Home</Link>
+                    {/* Navigation */}
+                    {/* <nav className="hidden md:flex items-center gap-8">
+                         <Link to="/" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Home</Link>
                         <Link to="/rooms" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Destination</Link>
                         <Link to="/experience" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">Experiences</Link>
                         <Link to="/about" className="text-[#776E6E] text-sm font-medium font-outfit hover:text-gray-900">About</Link>
-                    </nav>
+                    </nav>*/}
 
+                    {/* Right side icons and login *}
                     <div className="flex items-center gap-4 md:gap-6">
+                        {/* Search Icon *}
                         <svg className="w-4 h-4 text-gray-600" viewBox="0 0 15 15" fill="none">
                             <path d="M10.5 10.5L14 14M12 7C12 9.76142 9.76142 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
 
+                        {/* User Icon *}
                         <svg className="w-4 h-4 text-gray-600" viewBox="0 0 16 16" fill="none">
                             <path d="M8 8C10.2091 8 12 6.20914 12 4C12 1.79086 10.2091 0 8 0C5.79086 0 4 1.79086 4 4C4 6.20914 5.79086 8 8 8ZM8 10C5.33333 10 0 11.3333 0 14V16H16V14C16 11.3333 10.6667 10 8 10Z" fill="currentColor"/>
                         </svg>
 
+                        {/* Login Button *}
                         <Link to="/login" className="bg-[#18181B] text-white px-4 md:px-6 py-2 rounded-full text-sm font-medium font-outfit hover:bg-gray-800">
                             Login
                         </Link>
                     </div>
                 </div>
-            </header>
-            */}
+            </header>*/}
 
             {/* Main Content */}
             <div className="px-6 md:px-16 lg:px-28 py-8">
