@@ -195,7 +195,7 @@ const Rooms = () => {
         <div className="min-h-screen bg-[#FDFDFD]">
             {/* Header Navbar */}
             <header className="bg-white shadow-sm">
-                <div className="flex items-center justify-between px-28 py-4">
+                <div className="flex items-center justify-between px-6 md:px-16 lg:px-28 py-4">
                     {/* Logo */}
                     <Link to="/" className="flex items-center">
                         <img
