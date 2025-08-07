@@ -268,7 +268,7 @@ const Rooms = () => {
                     </div>
 
                     {/* Right Sidebar - Filters */}
-                    <div className="w-[287px] border border-[#D9D9D9] h-fit">
+                    <div className="w-full lg:w-[287px] border border-[#D9D9D9] h-fit">
                         {/* Filter Header */}
                         <div className="px-6 py-4 border-b border-gray-300 opacity-30">
                             <div className="flex items-center justify-between">
