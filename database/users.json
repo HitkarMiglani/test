@@ -1,3 +1,15 @@
 {
-  "users": []
+  "users": [
+    {
+      "id": "1754595498587dm0thjy9a",
+      "firstName": "Hitkar",
+      "lastName": "Miglani",
+      "email": "aaa12345@gmail.com",
+      "password": "$2b$12$ttvXP8PHLrEe9Jc6Jwug.OZd6Fp5NIt8yEp0cl7eD0TujocR2.BRu",
+      "createdAt": "2025-08-07T19:38:18.587Z",
+      "lastLogin": "2025-08-07T19:55:38.920Z",
+      "isActive": true,
+      "updatedAt": "2025-08-07T19:55:53.806Z"
+    }
+  ]
 }
